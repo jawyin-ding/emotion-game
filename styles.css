@@ -1,0 +1,146 @@
+body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    background: linear-gradient(to bottom right, #fff9c4, #b2ff59);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #ff5722;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #f57c00;
+}
+
+.emotion-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.emotion-item {
+    background: #ffccbc;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #d81b60;
+}
+
+.emotion-item:hover {
+    background: #ffab91;
+}
+
+.emotion-card, .game-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    min-height: 400px;
+}
+
+.emotion-card h2, .game-card h2 {
+    color: #e91e63;
+    font-size: 28px;
+    margin: 0;
+}
+
+.emotion-card h3, .game-card h3 {
+    color: #4caf50;
+    font-size: 20px;
+}
+
+.scenario {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.option-btn {
+    background: #bbdefb;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #1976d2;
+}
+
+.option-btn:hover {
+    background: #90caf9;
+}
+
+#gameFeedback {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+#diary {
+    margin-top: 30px;
+}
+
+#diaryList {
+    text-align: left;
+    font-size: 14px;
+}

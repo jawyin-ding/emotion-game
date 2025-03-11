@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的情緒冒險</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>我的情緒冒險 😊</h1>
+        <p>點選心情看看是什麼意思，或來玩遊戲吧！</p>
+        
+        <div class="controls">
+            <button id="showListBtn">看所有心情</button>
+            <button id="playGameBtn">玩遊戲</button>
+        </div>
+
+        <div id="emotionList" class="emotion-list" style="display: none;"></div>
+
+        <div id="emotionDisplay" class="emotion-card" style="display: none;">
+            <h2 id="emotionName"></h2>
+            <p id="emotionDesc"></p>
+            <p id="emotionScenario" class="scenario"></p>
+            <h3>你可以這樣做：</h3>
+            <ul id="emotionSuggestions"></ul>
+            <h3>你的心得：</h3>
+            <textarea id="userNote" placeholder="寫下你的想法吧！"></textarea>
+            <button id="saveBtn">記下來</button>
+        </div>
+
+        <div id="gameDisplay" class="game-card" style="display: none;">
+            <h2>情緒配對大挑戰 🎲</h2>
+            <p id="gameScenario" class="scenario"></p>
+            <div id="gameOptions" class="options"></div>
+            <p id="gameFeedback"></p>
+            <button id="nextGameBtn" style="display: none;">再玩一次</button>
+            <button id="backToMainBtn">回到主頁</button>
+        </div>
+
+        <div id="diary">
+            <h3>我的心情日記✏️</h3>
+            <ul id="diaryList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
